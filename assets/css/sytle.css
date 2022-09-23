@@ -281,20 +281,80 @@ footer {
   padding: 3rem 0;
   height: 10%;
 }
+/* small pc  */
+
+@media screen and (max-width: 1024px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+  }
+  .logo {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sign-up {
+    width: 100%;
+    padding: 3rem 0;
+  }
+  .nav-links {
+    width: 100%;
+  }
+}
+
+/* mdeium screen */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .logo {
+    width: 210%;
+  }
+  .img-hand-bug {
+    display: block;
+    right: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 7%;
+  }
+  .sign-up {
+    display: block;
+    flex: auto;
+    width: 100%;
+    align-items: center;
+    margin-right: 17rem;
+  }
+  .access {
+    display: block;
+  }
+  .img-box,
+  .img-box2 {
+    margin-top: 2rem;
+  }
+  .reduce-risk {
+    display: block;
+  }
+  .elipses {
+    display: none;
+  }
+}
+
 /* Mobile view  */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .nav-links {
     display: none;
   }
   nav button {
-    display: none;
+    opacity: 0;
   }
   .logo {
-    width: 20%;
+    width: 100%;
   }
   .hero {
     position: relative;
   }
+
   .hero h1 {
     font-size: 1.5rem;
   }
@@ -309,7 +369,9 @@ footer {
   }
   .hero .watch {
     width: 50%;
+    top: 16rem;
   }
+
   .img-box,
   .img-box2 {
     position: absolute;
@@ -329,8 +391,16 @@ footer {
     top: 70rem;
     margin: 0 -1rem;
   }
+  .section1,
+  .section2 {
+    margin-left: 10rem;
+  }
   .section2 .reduce-risk {
     margin-top: 5rem;
+  }
+  .ass2 {
+    font-size: 7px;
+    text-align: center;
   }
   .elipse,
   .elipses {
@@ -338,6 +408,9 @@ footer {
   }
   .footsect {
     display: block;
+  }
+  .first-row img {
+    width: 10%;
   }
   .second-row {
     display: flex;
@@ -387,43 +460,4 @@ footer {
   position: fixed;
   top: 2px;
   right: 2px;
-}
-
-/* mdeium screen */
-@media screen and (max-width: 848px) {
-  .nav-links {
-    display: none;
-  }
-  .logo {
-    width: 200%;
-  }
-  .img-hand-bug {
-    display: block;
-    right: 0;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 14%;
-  }
-  .sign-up {
-    display: block;
-    flex: auto;
-    width: 100%;
-    align-items: center;
-    margin-right: 17rem;
-  }
-  .access {
-    display: block;
-  }
-  .img-box,
-  .img-box2 {
-    margin-top: 2rem;
-  }
-  .reduce-risk {
-    display: block;
-  }
-  .elipses {
-    display: none;
-  }
 }
