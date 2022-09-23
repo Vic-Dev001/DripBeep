@@ -12,7 +12,7 @@ app.use("/assets", express.static("./assets"));
 app.get("/", (req, res) => {
   res.render("home");
 });
-const port = 3000; //process.env.PORT ||
+const port = process.env.PORT || 3000; //
 
 app.listen(port, () => {
   console.log("App started");
