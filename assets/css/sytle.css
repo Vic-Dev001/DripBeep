@@ -353,6 +353,7 @@ footer {
   }
   .hero {
     position: relative;
+    margin-top: -5rem;
   }
 
   .hero h1 {
@@ -377,13 +378,13 @@ footer {
     position: absolute;
     width: 300px;
     height: 200px;
-    margin-left: -2rem;
+    margin-left: -4.5rem;
   }
   .img-box {
     top: 3rem;
   }
   .ass-txts {
-    margin-top: 20rem;
+    margin-top: 24rem;
     text-align: center;
     font-size: 1rem;
   }
