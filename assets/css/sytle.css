@@ -380,23 +380,20 @@ footer {
   }
   .img-box {
     top: 3rem;
-    margin: 0 -1rem;
   }
   .ass-txts {
-    margin-top: 8rem;
+    margin-top: 17rem;
     text-align: center;
     font-size: 1rem;
   }
   .img-box2 {
     top: 70rem;
-    margin: 0 -1rem;
   }
   .section1,
   .section2 {
-    margin-left: 10rem;
   }
-  .section2 .reduce-risk {
-    margin-top: 5rem;
+  .reduce-risk {
+    margin-top: 15rem;
   }
   .ass2 {
     font-size: 7px;
