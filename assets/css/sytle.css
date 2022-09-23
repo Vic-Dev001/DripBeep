@@ -1,0 +1,429 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins";
+  background-color: #f9f9f9;
+}
+.logo {
+  width: 17%;
+}
+
+nav {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  margin: 4rem auto;
+  background-color: #f9f9f9;
+  margin: 4rem 7rem;
+}
+.nav-links {
+  font-size: 2rem;
+  flex: auto;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0 20rem;
+}
+.nav-links a:link,
+a:visited {
+  padding-left: 2rem;
+  color: #000000;
+  text-decoration: none;
+}
+
+nav button {
+  width: 8%;
+  font-size: 2rem;
+  padding: 1rem;
+  height: 5%;
+  /* margin-top: 3px; */
+  border: 1px solid #5335d9;
+  border-radius: 8px;
+  color: #5335d9;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+.hero {
+  /* margin-top: 10rem; */
+  background-color: #f9f9f9;
+  margin: 17rem 7rem;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #0b0a33;
+}
+.hero p {
+  text-align: center;
+  color: #7a7d9c;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+.hero button {
+  width: 10%;
+  height: 5rem;
+  position: absolute;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+.get-started {
+  left: 40%;
+  border: 1px solid #5335d9;
+  border-radius: 8px;
+  background-color: #5335d9;
+}
+.watch {
+  left: 52%;
+  margin-left: 1rem;
+  border: 1px solid #5335d9;
+  background-color: #fff;
+  border-radius: 8px;
+}
+main {
+  position: relative;
+  margin-top: 15rem;
+  width: 100%;
+  background-color: #fff;
+  z-index: -4;
+  /* margin-bottom: 4rem; */
+}
+.section1 {
+  padding: 12rem 0;
+  margin: 0 7rem;
+}
+.access {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+.img-box,
+.img-box2 {
+  width: 656px;
+  height: 536px;
+  padding: 15rem 0;
+  background-color: #444444;
+  border-radius: 8px;
+}
+.acc-img {
+  width: 656px;
+  object-fit: cover;
+  height: 10px;
+}
+.one,
+.two {
+  position: absolute;
+}
+.one {
+  top: 56rem;
+  left: 62rem;
+  z-index: -1;
+}
+.two {
+  left: 4.5rem;
+  top: 9rem;
+  z-index: -1;
+}
+
+.ass {
+  font-size: 4rem;
+  align-items: center;
+  margin-top: 8rem;
+  color: #0b0a33;
+  font-weight: 700;
+}
+.ass-txts p {
+  color: #7a7d9c;
+  font-size: 1.6rem;
+}
+.learn:link,
+.learn:visited {
+  color: #5335d9;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+.reduce-risk {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.one1,
+.two2 {
+  position: absolute;
+}
+.one1 {
+  top: 86rem;
+  right: 4.5rem;
+  z-index: -1;
+}
+.two2 {
+  top: 133rem;
+  right: 62rem;
+  z-index: -1;
+}
+.section2 {
+  padding: 12rem 0;
+  margin: 0 7rem;
+}
+footer {
+  width: 100%;
+  padding: 5rem 0;
+  background-color: #0b0a33;
+}
+.footsect {
+  margin: 0 7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footsect p {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.footsect img {
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+.second-row {
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+}
+.second-row h3 {
+  padding: 0 2rem;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.second-row h3 a {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: 300;
+}
+.footsect hr {
+  width: 200%;
+  margin-top: 6rem;
+  color: #9ba6ba;
+  border: 0.5px solid #9ba6ba;
+}
+
+.last-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 7rem;
+}
+.last-row p {
+  font-size: 2rem;
+  color: #fff;
+}
+.privacy {
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+}
+.privacy a {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0 2rem;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  /* background: rgba(255, 255, 255, 0.95); */
+  background-color: #0b0a33;
+  width: 100%;
+  z-index: 200;
+  top: 0;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  margin: 0 auto;
+  color: #fff;
+}
+/* creating the hand-burger */
+.hand-bugger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50rem;
+  background-color: #5335d9;
+  padding: 8rem auto;
+  z-index: 200;
+}
+.hand-bugger a {
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+  color: #fff;
+}
+.hidden {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+.img-hand-bug {
+  display: none;
+}
+.top-sign {
+  position: absolute;
+  top: 2px;
+  right: 3rem;
+  width: 8%;
+  font-size: 2rem;
+  padding: 3rem 0;
+  height: 10%;
+}
+/* Mobile view  */
+@media screen and (max-width: 400px) {
+  .nav-links {
+    display: none;
+  }
+  nav button {
+    display: none;
+  }
+  .logo {
+    width: 20%;
+  }
+  .hero {
+    position: relative;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .hero .get-started {
+    position: absolute;
+    top: 16rem;
+    left: 0;
+    width: 50%;
+  }
+  .hero .watch {
+    width: 50%;
+  }
+  .img-box,
+  .img-box2 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+  }
+  .img-box {
+    top: 3rem;
+    margin: 0 -1rem;
+  }
+  .ass-txts {
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .img-box2 {
+    top: 70rem;
+    margin: 0 -1rem;
+  }
+  .section2 .reduce-risk {
+    margin-top: 5rem;
+  }
+  .elipse,
+  .elipses {
+    display: none;
+  }
+  .footsect {
+    display: block;
+  }
+  .second-row {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+  }
+  .second-row h3 {
+    font-size: 1.4rem;
+  }
+  .footsect hr {
+    width: auto;
+  }
+  .last-row {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    font-size: 1.4rem;
+  }
+  .img-hand-bug {
+    display: block;
+    width: 5rem;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    cursor: pointer;
+  }
+  .close {
+    height: 6rem;
+    object-fit: cover;
+    top: 5px;
+    right: 1rem;
+  }
+  .logo {
+    width: 100%;
+  }
+}
+
+/* animations */
+.secs {
+  transition: transform 1s, opacity 1s;
+}
+.section--hidden {
+  opacity: 0;
+  transform: translateX(8rem);
+}
+.top {
+  position: fixed;
+  top: 2px;
+  right: 2px;
+}
+
+/* mdeium screen */
+@media screen and (max-width: 848px) {
+  .nav-links {
+    display: none;
+  }
+  .logo {
+    width: 200%;
+  }
+  .img-hand-bug {
+    display: block;
+    right: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 14%;
+  }
+  .sign-up {
+    display: block;
+    flex: auto;
+    width: 100%;
+    align-items: center;
+    margin-right: 17rem;
+  }
+  .access {
+    display: block;
+  }
+  .img-box,
+  .img-box2 {
+    margin-top: 2rem;
+  }
+  .reduce-risk {
+    display: block;
+  }
+  .elipses {
+    display: none;
+  }
+}
