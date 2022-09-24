@@ -74,6 +74,7 @@ nav button {
   margin: 2rem 0;
   cursor: pointer;
 }
+
 .get-started {
   left: 40%;
   border: 1px solid #5335d9;
@@ -216,8 +217,9 @@ footer {
 
 .last-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 2rem 7rem;
+  text-align: center;
 }
 .last-row p {
   font-size: 2rem;
@@ -234,7 +236,19 @@ footer {
   padding: 0 2rem;
   text-decoration: none;
 }
-
+.box-img {
+  margin-top: -15rem;
+  height: 53.5rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.box-img2 {
+  margin-top: -15rem;
+  height: 53.5rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+/* -------------------------------------------------------------    */
 .sticky {
   position: fixed;
   /* background: rgba(255, 255, 255, 0.95); */
@@ -336,7 +350,6 @@ footer {
     display: block;
   }
   .elipses {
-    display: none;
   }
 }
 
@@ -378,7 +391,7 @@ footer {
     position: absolute;
     width: 300px;
     height: 200px;
-    margin-left: -2.5rem;
+    margin-left: -1.5rem;
   }
   .img-box {
     top: 3rem;
@@ -391,9 +404,18 @@ footer {
   .img-box2 {
     top: 70rem;
   }
-  .section1,
-  .section2 {
+  .box-img {
+    /* margin-top: -15rem; */
+    height: 30.5rem;
+    object-fit: cover;
+    border-radius: 8px;
   }
+  .box-img2 {
+    height: 30.5rem;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
   .reduce-risk {
     margin-top: 15rem;
   }
@@ -401,12 +423,9 @@ footer {
     font-size: 7px;
     text-align: center;
   }
-  .elipse,
-  .elipses {
-    display: none;
-  }
   .footsect {
     display: block;
+    margin-left: 0 auto;
   }
   .first-row img {
     width: 10%;
